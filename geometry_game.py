@@ -26,7 +26,7 @@ class rectangle:
         return ( self.upper_right_point.x - self.lower_left_point.x ) * \
                     ( self.upper_right_point.y - self.lower_left_point.y )
 
-# create a random rectangle and print to user.
+#PC create a random rectangle and print to user.
 rectangle1 = rectangle(point( randrange(0,9) , randrange(0,9) ) , 
                        point( randrange(10,19) , randrange(10,19) )) 
 print("The rectangle has a lower left point:  ", rectangle1.lower_left_point.x ," , "
